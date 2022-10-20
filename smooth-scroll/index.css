@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98.9vw;
+    height: 100vh;
+    font-size: 12vw;
+    color: rgb(255, 255, 255);
+    scroll-snap-align: start;
+}
+
+.wrapper .scroll-area:nth-child(1) {
+    background-color: rgb(3, 79, 79);
+}
+
+.wrapper .scroll-area:nth-child(2) {
+    background-color: rgb(149, 188, 11);
+}
+
+.wrapper .scroll-area:nth-child(3) {
+    background-color: rgb(255, 132, 0);
+}
+
+.wrapper .scroll-area:nth-child(4) {
+    background-color: rgb(147, 54, 159);
+}
